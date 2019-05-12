@@ -1,0 +1,43 @@
+.entry-content {
+   position: relative;
+   min-height: 470px;
+   width: 1000px;
+}
+.entry-content div {
+   margin: 20px 0px;
+}
+#database div {
+   margin: 0px;
+}
+#loadingText {
+   position:absolute;
+   top:250px;
+   left:150px;
+   font-size:2em;
+   color: white;
+}
+#webgl {
+   width: 100%;
+   height: 60%;
+   min-height: 470px;
+}
+#minimap {
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 150px;
+   height: 150px;
+   background-color: rgba(200, 0, 0, 0.5);
+}
+#player {
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 150px;
+   height: 150px;
+   z-index: 10;
+}
+#time {
+   text-align: center;
+   font-size: 2.0em;
+}
